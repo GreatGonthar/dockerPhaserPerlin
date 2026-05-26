@@ -15,5 +15,5 @@ export const ROAD_WIDTH = 0.06
 export const WATER_LEVEL = 0.2
 export const RIVER_LEVEL = 0.4
 export const RIVER_WIDTH = 0.1
-export const SERVER_URL = "192.168.0.10:3001"
+export const SERVER_URL = 'http://193.124.113.27:3001'
 export const DEBUG = false;

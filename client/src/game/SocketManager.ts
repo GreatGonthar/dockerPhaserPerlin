@@ -4,7 +4,7 @@ import { SERVER_URL } from "./CONSTANTS";
 
 export class SocketManager {
   private socket: Socket;
-  constructor(serverUrl = SERVER_URL) {
+  constructor(serverUrl = SERVER_URL ?? 'http://localhost:3001') {
     this.socket = io(serverUrl);
     this.socket.on("connect", () => {
       console.log("Подключились к серверу, id:", this.socket.id);
