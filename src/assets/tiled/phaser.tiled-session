@@ -1,0 +1,96 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map2.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Все файлы (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/User/Desktop/Винтажный городской стиль в пикселе-Photoroom.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/User/Desktop/безымянный.tmx": {
+            "scale": 0.18287499999999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1599.4531784005467,
+                "y": 1602.187286397813
+            }
+        },
+        "C:/Users/User/Desktop/смсмчсмсчмсчмсчсмч.tsx": {
+            "scaleInDock": 1
+        },
+        "map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 270,
+                "y": 290.66666666666663
+            }
+        },
+        "map1.json": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 197.125,
+                "y": 203.75
+            }
+        },
+        "map1.json#objects": {
+            "scaleInDock": 1
+        },
+        "map1.json#test2": {
+            "scaleInDock": 1
+        },
+        "map2.json": {
+            "expandedObjectLayers": [
+                6
+            ],
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 438,
+                "y": 158.66666666666663
+            }
+        },
+        "map2.json#objects": {
+            "scaleInDock": 1
+        },
+        "map2.json#test2": {
+            "scaleInDock": 1
+        },
+        "objects.tsx": {
+            "scaleInDock": 1
+        },
+        "test2.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "D:/хлам/dockerPhaserPerlin-main/dockerPhaserPerlin-main/client/src/assets/tiled",
+    "last.imagePath": "D:/хлам/dockerPhaserPerlin-main/dockerPhaserPerlin-main/client/src/assets/img",
+    "map.lastUsedExportFilter": "JSON map-файлы (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "map.tmx",
+        "map1.json",
+        "map2.json"
+    ],
+    "project": "phaser.tiled-project",
+    "recentFiles": [
+        "map.tmx",
+        "map1.json",
+        "map2.json",
+        "C:/Users/User/Desktop/безымянный.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.useTransparentColor": true
+}

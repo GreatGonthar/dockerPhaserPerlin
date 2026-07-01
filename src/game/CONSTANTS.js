@@ -1,0 +1,20 @@
+export const TILE_SIZE = 32;
+export const PLAYER_SIZE = 64;
+export const SPEED = 200;
+const MAP_SCALE = 1;
+export const RECT_SIZE = 64 / MAP_SCALE;
+
+export const MAP_SIZE_W = 4 * MAP_SCALE;
+export const MAP_SIZE_H = 6 * MAP_SCALE;
+export const SEED = 99 //Math.floor(Math.random()*100)
+export const SCALE = 0.01;
+export const LAYERS = 10;
+export const LODERS = 20;
+export const FLOWERS = 200;
+export const ROAD_LEVEL = 0.6;
+export const ROAD_WIDTH = 0.06
+export const WATER_LEVEL = 0.2
+export const RIVER_LEVEL = 0.4
+export const RIVER_WIDTH = 0.1
+export const SERVER_URL = 'http://193.124.113.27:3001'
+export const DEBUG = true;
