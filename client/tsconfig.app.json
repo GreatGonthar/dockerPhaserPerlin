@@ -24,5 +24,8 @@
 		"erasableSyntaxOnly": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src"]
+	"include": ["src"],
+	 "exclude": [
+    "src/assets/tiled/**/*.tsx"
+  ]
 }

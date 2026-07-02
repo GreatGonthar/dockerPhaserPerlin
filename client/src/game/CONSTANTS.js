@@ -3,6 +3,7 @@ export const PLAYER_SIZE = 64;
 export const SPEED = 200;
 const MAP_SCALE = 1;
 export const RECT_SIZE = 64 / MAP_SCALE;
+
 export const MAP_SIZE_W = 4 * MAP_SCALE;
 export const MAP_SIZE_H = 6 * MAP_SCALE;
 export const SEED = 99 //Math.floor(Math.random()*100)

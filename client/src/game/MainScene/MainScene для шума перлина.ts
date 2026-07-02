@@ -1,15 +1,17 @@
 import * as Phaser from "phaser";
 import { SocketManager } from "../SocketManager";
-import grass from "../../assets/img/TX_Tileset_ Grass.png";
-
+import tileset from "../../assets/img/test2.png";
+import road from "../../assets/img/roads.png";
+import water from "../../assets/img/water.png";
+import flowers from "../../assets/img/flowers.png";
 import playerImg from "../../assets/img/walk3.png";
-import objects from "../../assets/img/TX_Props.png";
+import tree from "../../assets/img/tree.png";
 import {
   RECT_SIZE,
   MAP_SIZE_W,
   MAP_SIZE_H,
   SPEED,
- 
+  TILE_SIZE,
   PLAYER_SIZE,
   SEED,
 } from "../CONSTANTS";
@@ -46,22 +48,33 @@ export class MainScene extends Phaser.Scene {
   }
 
   preload() {
-   this.load.spritesheet('grass', grass, {
-    frameWidth: 32,
-    frameHeight: 32,
-  });
-
-  // Тайлсет объектов (деревья) — 2 колонки, 32x32
-  this.load.spritesheet('objects',objects, {
-    frameWidth: 32,
-    frameHeight: 32,
-  });
+    // Загружаем тайлсет земли — нарезаем на фреймы размером TILE_SIZE
+    this.load.spritesheet("tileset", tileset, {
+      frameWidth: TILE_SIZE,
+      frameHeight: TILE_SIZE,
+    });
+    // Загружаем тайлсет воды
+    this.load.spritesheet("water", water, {
+      frameWidth: TILE_SIZE,
+      frameHeight: TILE_SIZE,
+    });
+    // Загружаем тайлсет дорог
+    this.load.spritesheet("road", road, {
+      frameWidth: TILE_SIZE,
+      frameHeight: TILE_SIZE,
+    });
+    // Загружаем декоративные элементы — цветы, трава
+    this.load.spritesheet("flowers", flowers, {
+      frameWidth: TILE_SIZE,
+      frameHeight: TILE_SIZE,
+    });
     // Загружаем spritesheet игрока — нарезаем на фреймы размером PLAYER_SIZE
     this.load.spritesheet("player", playerImg, {
       frameWidth: PLAYER_SIZE,
       frameHeight: PLAYER_SIZE,
     });
-
+    // Загружаем изображение дерева — обычный image без нарезки
+    this.load.image("tree", tree);
   }
 
   create() {

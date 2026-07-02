@@ -1,0 +1,105 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "map2.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "Все файлы (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "C:/Users/User/Desktop/Винтажный городской стиль в пикселе-Photoroom.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/User/Desktop/безымянный.tmx": {
+            "scale": 0.18287499999999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1599.4531784005467,
+                "y": 1602.187286397813
+            }
+        },
+        "C:/Users/User/Desktop/смсмчсмсчмсчмсчсмч.tsx": {
+            "scaleInDock": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "map.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1155.3333333333335,
+                "y": 710.6666666666666
+            }
+        },
+        "map1.json": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 388.5,
+                "y": 357
+            }
+        },
+        "map1.json#grass": {
+            "scaleInDock": 1
+        },
+        "map1.json#objects": {
+            "scaleInDock": 1
+        },
+        "map1.json#test2": {
+            "scaleInDock": 1
+        },
+        "map2.json": {
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 253.75,
+                "y": 201.5
+            }
+        },
+        "map2.json#grass": {
+            "scaleInDock": 1
+        },
+        "map2.json#objects": {
+            "scaleInDock": 1
+        },
+        "map2.json#test2": {
+            "scaleInDock": 1
+        },
+        "objects.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "test2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "/media/greatgonthar/Windows 10 Compact/хлам/dockerPhaserPerlin-main/dockerPhaserPerlin-main/client/src/assets/tiled",
+    "last.imagePath": "/media/greatgonthar/Windows 10 Compact/хлам/dockerPhaserPerlin-main/dockerPhaserPerlin-main/client/src/assets/img",
+    "map.lastUsedExportFilter": "JSON map-файлы (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "map.tmx",
+        "map1.json",
+        "map2.json"
+    ],
+    "project": "phaser.tiled-project",
+    "recentFiles": [
+        "objects.tsx",
+        "map2.json",
+        "map1.json",
+        "map.tmx",
+        "grass.tsx",
+        "test2.tsx",
+        "C:/Users/User/Desktop/безымянный.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.useTransparentColor": true
+}
